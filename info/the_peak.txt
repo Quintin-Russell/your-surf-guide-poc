@@ -1,0 +1,82 @@
+--Location--
+Name: The Peak
+
+Coordinates: -5.203105, 103.919097
+
+City: Krui
+
+Region: South Sumatra
+
+Country: Indonesia
+
+Difficulty: Andvanced - Expert
+
+Crowded: Yes
+
+--Bythmetry--
+Bottom: reef
+
+Paddle-out: beach
+
+Wave Direction: A-frame; mostly a right
+
+--Paddle out--
+Paddle-out: beach
+
+Channel?: True
+
+Long Paddle?: False
+
+--Swell--
+Consistency: High
+
+Size Window (m):
+- start: 1
+- end: 2.5
+
+Preferred Size (m):
+- start: 1.5
+- end: 2
+
+Preferred Tide: low-mid
+
+Swell Window:
+- start: 180
+- end: 220
+
+Preferred Swell Direction:
+- start: 180
+- end: 210
+
+--Wind--
+Preferred Window:
+- start: 130
+- end: 160
+- glassy?: False
+
+Predominant Direction:
+- morning:
+-- start: 230
+-- end: 270
+-- glassy?: True
+- mid-day:
+-- start: 130
+-- end: 160
+-- glassy?: False
+- evening:
+-- start: 130
+-- end: 160
+-- glassy?: True
+
+--Description--
+The peak can be described as "the friendliest slab". The wave is a barrelling triangle that whips down the point from deep water and throws itself onto a shallow reef. The barrels are perfect, intense and short.
+The wave is moody. There is no formula to when this wave works: sometimes it's best at high tide, sometimes low tide, maybe in between. The only constant is that you need the SE trade winds.
+To surf the wave properly, you have to takeoff behind the peak. If you don't, the barrel will behind you or very short.
+The left appears the more west in the swell, but the best lefts are on the smaller to medium sized waves.
+The wave is often crowded but you can find windows with only a few guys out. Many people think they want to surf here, but soon get much shy after paddling out. Many of the people in the lineup are not catching a lot of waves
+
+When you're surfing, expect:
+- waits between sets
+- small takeoff zone
+- steep and deep backdoor takeoffs
+- hitting the reef
