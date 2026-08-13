@@ -1,0 +1,52 @@
+--Location--
+Name: Jimmy's
+Cooridnates: -5.008847, 103.743860
+City: Krui
+Region: South Sumatra
+Country: Indonesia
+Difficulty: Expert - Kamakazi
+Crowded: Sometimes
+--Bythmetry--
+Bottom: Reef
+Wave Direction: Right
+--Paddle out--
+Paddle-out: Jetty
+Channel?: Yes
+Long Paddle?: False
+--Swell--
+Consistency: Medium
+Size Window (m):
+- start: 1.5
+- end: 5
+Preferred Size (m):
+- start: 1.8
+- end: 2.7
+Preferred Tide: high
+Swell Window:
+- start: 190
+- end: 230
+Preferred Swell Direction:
+- start: 210
+- end: 225
+--Wind--
+Preferred Window:
+- start: 210
+- end: 280
+- glassy?: True
+Predominant Direction:
+- morning:
+-- start: 210
+-- end: 280
+-- glassy?: True
+- mid-day:
+-- start: 130
+-- end: 190
+-- glassy?: False
+- evening:
+-- start: 130
+-- end: 180
+-- glassy?: False
+--Description--
+Fast, powerful barrel. the bigger it gets, the more perfect. has to be an sw swell. board breaks are common, but so are the tubes of your life. hollow barrels of ~75 meters
+intollerant to the predominant SE trade winds, so you need to go early when it's glassy or have a day with western winds (not uncommon, especially if it is cloudy on the coast)
+watch out for the end section. it's shallow and the wave closes out. better to get in the barrel, get out and get out the back
