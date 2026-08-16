@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: surf_guide_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-surf_guide}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-surf_guide}
+      POSTGRES_DB: ${POSTGRES_DB:-surf_guide}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - surf_guide_pg_data:/var/lib/postgresql/data
+      - ./migrations:/docker-entrypoint-initdb.d
+
+volumes:
+  surf_guide_pg_data:

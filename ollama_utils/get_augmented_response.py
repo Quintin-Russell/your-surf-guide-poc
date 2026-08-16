@@ -1,13 +1,20 @@
 import os
 import ollama
 
-def get_augmented_response(question, context: str):  # FastAPI automatically reads "question" from the URL query string
+def get_augmented_response(question, context: str, matching_spots, swell_direction, wind_direction, tide):
     # Step 2: AUGMENT - build a prompt that includes the retrieved context
-    augmented_prompt = f"""Use the following context to answer the question.
-If the context doesn't contain relevant information, say so.
+    augmented_prompt = f"""You are a surf guide in Krui, South Sumatra, Indonesia. You only guide surfers who ride shortboards.
+Your job is to recommend a surf spot given the real-world conditions below. Be concise with your answer, but give reasons for your choice.
 
-Context:
-Assume that you are a surf guide in krui, south sumatra, indonesia. ypu only guide surfers that surf shortboards.
+Current conditions:
+- Swell direction: {swell_direction} degrees
+- Wind direction: {wind_direction} degrees
+- Tide: {tide}
+
+These spots already passed a hard filter and are known to accept the current conditions: {", ".join(matching_spots)}
+Use the spot descriptions below (retrieved for relevance to the question) to explain why the spot is good right now and what to expect. Do not ask the user for more information - you already have everything you need.
+
+Spot descriptions:
 {context}
 
 Question: {question}"""
@@ -22,5 +29,6 @@ Question: {question}"""
     return {
         "question": question,
         "answer": response["message"]["content"],
+        "matching_spots": matching_spots,
         "context_used": context,
     }
