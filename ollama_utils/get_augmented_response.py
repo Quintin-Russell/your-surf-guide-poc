@@ -4,7 +4,7 @@ import ollama
 def get_augmented_response(question, context: str, matching_spots, swell_direction, wind_direction, tide):
     # Step 2: AUGMENT - build a prompt that includes the retrieved context
     augmented_prompt = f"""You are a surf guide in Krui, South Sumatra, Indonesia. You only guide surfers who ride shortboards.
-Your job is to recommend a surf spot given the real-world conditions below. Be concise with your answer, but give reasons for your choice
+Your job is to recommend a surf spot given the real-world conditions below. Be concise with your answer, but give reasons for your choice.
 
 Current conditions:
 - Swell direction: {swell_direction} degrees
